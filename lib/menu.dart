@@ -22,6 +22,7 @@ class MyHomePage extends StatelessWidget {
         title: const Text(
           'Shopping List',
         ),
+        centerTitle: false,
         backgroundColor: Colors.indigo,
         foregroundColor: Colors.white,
       ),
