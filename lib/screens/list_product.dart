@@ -14,7 +14,7 @@ class ProductPage extends StatefulWidget {
 class _ProductPageState extends State<ProductPage> {
   Future<List<Product>> fetchProduct() async {
     var url = Uri.parse(
-        'http://alma-laras-tutorial.pbp.cs.ui.ac.id/json/');
+        'http://alma-laras-tutorial.pbp.cs.ui.ac.id/get-product/');
     var response = await http.get(
       url,
       headers: {"Content-Type": "application/json"},
